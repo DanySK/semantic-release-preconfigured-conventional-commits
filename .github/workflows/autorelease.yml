@@ -34,3 +34,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+      - name: Debug
+        if: failure()
+        run: cat ~/.npm/_logs/*
