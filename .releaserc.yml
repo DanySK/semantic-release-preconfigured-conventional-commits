@@ -1,6 +1,15 @@
-plugins: 
-  - 
-    - "@semantic-release/commit-analyzer"
+tagFormat: "${version}"
+analyzeCommits:
+  path: semantic-release-conventional-commits
+  minorTypes:
+    - feat
+  patchTypes:
+    - fix
+    - doc
+    - perf
+plugins:
+  -
+    - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
       presetConfig:
         types:
@@ -12,48 +21,18 @@ plugins:
             section: "Documentation"
           - type: perf
             section: "Performance improvements"
-            hidden: false
           - type: test
             section: "Testing"
-            hidden: false
           - type: ci
             section: "Build and continuous integration"
-            hidden: true
           - type: build
             section: "Build and continuous integration"
-            hidden: true
           - type: chore
             section: "Other changes"
           - type: style
             section: "Other changes"
-            hidden: true
           - type: refactor
-            section: "Other changes"
-            hidden: true
-      releaseRules:
-        - type: feat
-          release: minor
-        - type: fix
-          release: patch
-        - type: perf
-          release: patch
-        - type: revert
-          release: minor
-        - type: docs
-          release: patch
-        - type: style
-          release: false
-        - type: refactor
-          release: false
-        - type: test
-          release: false
-        - type: build
-          release: false
-        - type: ci
-          release: false
-        - type: chore
-          release: false
-  - "@semantic-release/release-notes-generator"
+            section: "Other changes" 
   - "@semantic-release/changelog"
 ### CUT ###
   - "@semantic-release/npm"
@@ -67,4 +46,3 @@ plugins:
     - "@semantic-release/exec"
     - prepareCmd: |
         sed -ni '/### CUT ###*/q;p' .releaserc.yml
-tagFormat: "${version}"
