@@ -1,0 +1,47 @@
+{
+  "name": "semantic-release-conventional-changelog",
+  "version": "0.1.0",
+  "description": "Shareable configuration for Semantic Release with Conventional Commits https://www.conventionalcommits.org/",
+  "main": ".releaserc.yml",
+  "files": [
+    ".releaserc.yml"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DanySK/semantic-release-conventional-changelog.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    "conventional-commit",
+    "release-notes",
+    "changelog"
+  ],
+  "author": "Danilo Pianini <danilo.pianini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanySK/semantic-release-conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/DanySK/semantic-release-conventional-changelog",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^8.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^18.0.0"
+  },
+  "engines": {
+    "node": "16.13"
+  }
+}
