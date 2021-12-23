@@ -2,9 +2,9 @@
   "name": "semantic-release-preconfigured-conventional-commits",
   "version": "1.0.0",
   "description": "Shareable configuration for Semantic Release with Conventional Commits https://www.conventionalcommits.org/",
-  "main": ".releaserc.yml",
+  "main": ".releaserc.json",
   "files": [
-    ".releaserc.yml"
+    ".releaserc.json"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

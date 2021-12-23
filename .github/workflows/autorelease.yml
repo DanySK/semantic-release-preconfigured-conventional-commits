@@ -27,6 +27,14 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install
         run: npm install
+      - name: Prepare the configuration
+        uses: mikefarah/yq@v4.16.2
+        with:
+          cmd: >-
+            sed -n '/### CUT ###*/q;p' .releaserc.yml | yq -o j -e eval > .releaserc.json.pre
+      - name: Check the existence of the generated configuration
+        run: |
+          [ -s .releaserc.json.pre ] && jq -e < .releaserc.json.pre
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,4 +44,6 @@ jobs:
         run: npx semantic-release
       - name: Debug
         if: failure()
-        run: cat ~/.npm/_logs/*
+        run: |
+          cat .releaserc.json
+          cat ~/.npm/_logs/*

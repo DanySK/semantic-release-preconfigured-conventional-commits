@@ -45,4 +45,4 @@ plugins:
   -
     - "@semantic-release/exec"
     - prepareCmd: |
-        sed -ni '/### CUT ###*/q;p' .releaserc.yml
+        mv .releaserc.json.pre .releaserc.json
