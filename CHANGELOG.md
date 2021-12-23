@@ -1,3 +1,16 @@
+### [1.0.2](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.1...1.0.2) (2021-12-23)
+
+
+### Bug Fixes
+
+* conventional commits specifies "docs", not "doc" ([41dd4a0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/41dd4a0d8223553ed58994bb5532b11224a1bf16))
+
+
+### Documentation
+
+* add keyword ([e2818e1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/e2818e104f961e9882ded3ad9e9abdf5d24d423d))
+* write a readme ([c416e7b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c416e7b9b1495da2a5deaf70bc0bd7106728b71c))
+
 ### [1.0.1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.0...1.0.1) (2021-12-23)
 
 
