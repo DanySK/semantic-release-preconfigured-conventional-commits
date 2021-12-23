@@ -18,7 +18,8 @@
     "semantic-release",
     "semantic-release-config",
     "conventional-commit",
-    "release-notes"
+    "release-notes",
+    "shareable-configuration"
   ],
   "author": "Danilo Pianini <danilo.pianini@gmail.com>",
   "license": "MIT",
