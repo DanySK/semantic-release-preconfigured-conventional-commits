@@ -1,3 +1,21 @@
+### [1.0.3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.2...1.0.3) (2021-12-23)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency semantic-release to 18.0.1 ([0d375b8](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0d375b8697eabc022d9bf44ba9a162f0fd00f128))
+
+
+### Build and continuous integration
+
+* check the syntax correctness in pull requests too ([59db2aa](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/59db2aa24571ba8f6af49d1192c84e85fff5aadf))
+
+
+### Other changes
+
+* **deps:** add renovate.json ([d25db3e](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/d25db3eb1f76d408e0b1f72cc8017a8c1e695a0c))
+* **deps:** trigger minor releases on updates to package.json ([29075ab](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/29075abc33885c56dc827a90702237766652ef31))
+
 ### [1.0.2](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.1...1.0.2) (2021-12-23)
 
 
