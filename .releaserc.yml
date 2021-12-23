@@ -5,7 +5,7 @@ analyzeCommits:
     - feat
   patchTypes:
     - fix
-    - doc
+    - docs
     - perf
 plugins:
   -
