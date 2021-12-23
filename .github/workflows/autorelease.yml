@@ -4,7 +4,6 @@ on:
     branches-ignore:
       - 'renovate/**'
     paths-ignore:
-      - 'README.md'
       - 'CHANGELOG.md'
       - 'LICENSE'
   pull_request:
@@ -12,9 +11,6 @@ on:
 
 jobs:
   release:
-    if: >-
-      github.event_name == 'push'
-      && github.repository == 'DanySK/semantic-release-preconfigured-conventional-commits'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,6 +32,9 @@ jobs:
         run: |
           [ -s .releaserc.json.pre ] && jq -e < .releaserc.json.pre
       - name: Semantic Release
+        if: >-
+          github.event_name == 'push'
+          && github.repository == 'DanySK/semantic-release-preconfigured-conventional-commits'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
