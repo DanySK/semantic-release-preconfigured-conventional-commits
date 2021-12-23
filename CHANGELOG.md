@@ -1,3 +1,20 @@
+### [1.0.1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.0...1.0.1) (2021-12-23)
+
+
+### Bug Fixes
+
+* try to use JSON instead of yaml ([0869801](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/08698011a3a25e6671c6a75e82f1cf0385fd1109))
+
+
+### Build and continuous integration
+
+* rename package ([5b00dd4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5b00dd4f236ffa4782c022daa9d1fc9d13b2c227))
+
+
+### Other changes
+
+* **release:** 1.0.0 [skip ci] ([571803d](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/571803d24a84537dd6836a464250897d7880de2c))
+
 ## 1.0.0 (2021-12-22)
 
 
