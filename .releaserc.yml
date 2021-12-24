@@ -8,6 +8,7 @@ analyzeCommits:
     - docs
     - perf
 plugins:
+  - "@semantic-release/changelog"
   -
     - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
@@ -33,7 +34,6 @@ plugins:
             section: "Other changes"
           - type: refactor
             section: "Other changes" 
-  - "@semantic-release/changelog"
 ### CUT ###
   - "@semantic-release/npm"
   - "@semantic-release/github"
