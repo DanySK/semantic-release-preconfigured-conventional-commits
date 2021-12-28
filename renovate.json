@@ -5,9 +5,9 @@
   ],
   "packageRules": [
     {
-      "description": "Updates to the dependencies should trigger a new minor release",
+      "description": "Updates to the dependencies should trigger a new patch release",
       "matchPaths": ["package.json"],
-      "semanticCommitType": "fix"
+      "semanticCommitScope": "core-deps"
     }
   ]
 }
