@@ -1,3 +1,20 @@
+## [1.1.0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.3...1.1.0) (2021-12-28)
+
+
+### Features
+
+* support "!" breaking changes and restructure the configuration ([19054c1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/19054c18ad2119ea5345ac2057dd80fef85727af))
+
+
+### Style improvements
+
+* move changelog on top ([ea8c51f](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ea8c51fc7596034b0b7053949e0050067895d55d))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v2.5.1 ([d96c31c](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/d96c31cd99f65651d8775ccfb611d2b4a72bd064))
+
 ### [1.0.3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.2...1.0.3) (2021-12-23)
 
 
