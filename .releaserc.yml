@@ -1,39 +1,69 @@
+# CONFIG
 tagFormat: "${version}"
-analyzeCommits:
-  path: semantic-release-conventional-commits
-  minorTypes:
-    - feat
-  patchTypes:
-    - fix
-    - docs
-    - perf
+_types: &types
+  - type: '*!'
+    section: "BREAKING CHANGES"
+    release: major
+  - type: feat
+    section: "Features"
+    release: minor
+  - type: chore
+    scope: api-deps
+    section: "Dependency updates"
+    release: minor
+  - type: chore
+    scope: core-deps
+    section: "Dependency updates"
+    release: patch
+  - type: fix
+    section: "Bug Fixes"
+    release: patch
+  - type: docs
+    section: "Documentation"
+    release: patch
+  - type: perf
+    section: "Performance improvements"
+    release: patch
+  - type: revert
+    section: "Revert previous changes"
+    release: patch
+  - type: test
+    section: "Tests"
+    release: false
+  - type: ci
+    section: "Build and continuous integration"
+    release: false
+  - type: build
+    section: "Build and continuous integration"
+    release: false
+  - type: chore
+    scope: deps
+    section: "Dependency updates"
+    release: false
+  - type: chore
+    section: "General maintenance"
+    release: false
+  - type: style
+    section: "Style improvements"
+    release: false
+  - type: refactor
+    section: "Refactoring"
+    release: false
+# ENDCONFIG
 plugins:
-  - "@semantic-release/changelog"
+  -
+    - "@semantic-release/commit-analyzer"
+    - preset: conventionalcommits
+      presetConfig:
+        types: *types
+      releaseRules:
+        *types
   -
     - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
       presetConfig:
-        types:
-          - type: feat
-            section: "Features"
-          - type: fix
-            section: "Bug Fixes"
-          - type: docs
-            section: "Documentation"
-          - type: perf
-            section: "Performance improvements"
-          - type: test
-            section: "Testing"
-          - type: ci
-            section: "Build and continuous integration"
-          - type: build
-            section: "Build and continuous integration"
-          - type: chore
-            section: "Other changes"
-          - type: style
-            section: "Other changes"
-          - type: refactor
-            section: "Other changes" 
+        types: *types
+  - "@semantic-release/changelog"
 ### CUT ###
   - "@semantic-release/npm"
   - "@semantic-release/github"

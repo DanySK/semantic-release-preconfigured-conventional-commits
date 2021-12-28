@@ -1,7 +1,34 @@
 # Pre-configured shareable Semantic Release configuration for conventional commits
 
 This is a ready-to-use, pre-defined configuration for [semantic-release](https://www.npmjs.com/package/semantic-release),
-based on [semantic-release-conventional-commits](https://github.com/elliotttf/semantic-release-conventional-commits#readme).
+meant to support the use of [conventional commits](https://www.conventionalcommits.org/) along with [Whitesource Renovate](https://github.com/renovatebot/renovate).
+
+## Configuration
+
+#### **MAJOR** release
+* Any commit type and scope terminating with `!` causes a `BREAKING CHANGE`
+
+#### **MINOR** release
+* Commit type `chore` with scope `api-deps` (*Dependency updates*)
+* Commit type `feat` (*Features*) with any scope
+
+#### **PATCH** release
+* Commit type `chore` with scope `core-deps` (*Dependency updates*)
+* Commit type `fix` (*Bug Fixes*) with any scope
+* Commit type `docs` (*Documentation*) with any scope
+* Commit type `perf` (*Performance improvements*) with any scope
+* Commit type `revert` (*Revert previous changes*) with any scope
+
+#### No release
+* Commit type `test` (*Tests*)
+* Commit type `ci` (*Build and continuous integration*)
+* Commit type `build` (*Build and continuous integration*)
+* Commit type `chore` with scope `deps` (*Dependency updates*)
+* Commit type `chore` (*General maintenance*) with scopes different than the ones mentioned above 
+* Commit type `style` (*Style improvements*) with any scope 
+* Commit type `refactor` (*Refactoring*) with any scope 
+
+## Usage
 
 To use this configuration, add to your `package.json`:
 
@@ -42,21 +69,6 @@ extends:
     }
 }
 ```
-
-### Configuration
-
-* `feat` triggers a new minor release
-* `fix`, `docs`, and `perf` trigger a new patch release
-
-In the changelog:
-
-* `feat` populates the section **New Features**
-* `fix` populates the section **Bug fixes**
-* `docs` populates the section **Documentation**
-* `perf` populates the section **Performance improvements**
-* `test` populates the section **Testing**
-* `ci` and `build` populate the section **Build and continuous integration**
-* `chore`, `style`, and `refactor` populate the section **Other changes**
 
 ## Proposing changes
 
