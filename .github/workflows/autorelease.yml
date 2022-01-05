@@ -29,6 +29,19 @@ jobs:
           BRANCH: ${{ steps.branch-name.outputs.current_branch }}
         run: |
           ./expect.sh 'any!' 'major'
+          ./expect.sh 'feat' 'minor'
+          ./expect.sh 'chore(api-deps)' 'minor'
+          ./expect.sh 'chore(core-deps)' 'patch'
+          ./expect.sh 'fix' 'patch'
+          ./expect.sh 'perf' 'patch'
+          ./expect.sh 'revert' 'patch'
+          ./expect.sh 'test' 'no'
+          ./expect.sh 'ci' 'no'
+          ./expect.sh 'build' 'no'
+          ./expect.sh 'chore' 'no'
+          ./expect.sh 'chore(deps)' 'no'
+          ./expect.sh 'style' 'no'
+          ./expect.sh 'refactor' 'no'
   release:
     runs-on: ubuntu-latest
     needs:
