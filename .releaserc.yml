@@ -58,6 +58,7 @@ plugins:
         types: *types
       releaseRules:
         *types
+### TEST ###
   -
     - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
