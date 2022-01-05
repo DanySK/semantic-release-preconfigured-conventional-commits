@@ -29,10 +29,12 @@ jobs:
           BRANCH: ${{ steps.branch-name.outputs.current_branch }}
         run: |
           ./expect.sh 'any!' 'major'
+          ./expect.sh 'any(scope)!' 'major'
           ./expect.sh 'feat' 'minor'
           ./expect.sh 'chore(api-deps)' 'minor'
           ./expect.sh 'chore(core-deps)' 'patch'
           ./expect.sh 'fix' 'patch'
+          ./expect.sh 'docs' 'patch'
           ./expect.sh 'perf' 'patch'
           ./expect.sh 'revert' 'patch'
           ./expect.sh 'test' 'no'
