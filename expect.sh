@@ -4,6 +4,9 @@ set -e
 [ $# -eq 2 ] || (echo invalid parameter count "$#": "$@" && exit 1)
 
 cleanup() {
+  LOCATION="$(pwd)"
+  LOCATION="${LOCATION%testdir*}"
+  cd "$LOCATION"
   if [ -d testdir ]; then
     rm -rf testdir
   fi
