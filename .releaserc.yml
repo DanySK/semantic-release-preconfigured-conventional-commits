@@ -1,54 +1,55 @@
 # CONFIG
 tagFormat: "${version}"
-_types: &types
+
+_rules: &rules
   - type: '*!'
-    section: "BREAKING CHANGES"
     release: major
-  - type: feat
-    section: "Features"
-    release: minor
   - type: chore
     scope: api-deps
-    section: "Dependency updates"
     release: minor
   - type: chore
     scope: core-deps
-    section: "Dependency updates"
-    release: patch
-  - type: fix
-    section: "Bug Fixes"
     release: patch
   - type: docs
-    section: "Documentation"
-    release: patch
-  - type: perf
-    section: "Performance improvements"
     release: patch
   - type: revert
-    section: "Revert previous changes"
     release: patch
-  - type: test
-    section: "Tests"
-    release: false
-  - type: ci
-    section: "Build and continuous integration"
-    release: false
-  - type: build
-    section: "Build and continuous integration"
-    release: false
+
+_types: &types
+  - type: '*!'
+    section: "BREAKING CHANGES"
+  - type: feat
+    section: "Features"
+  - type: chore
+    scope: api-deps
+    section: "Dependency updates"
+  - type: chore
+    scope: core-deps
+    release: patch
+    section: "Dependency updates"
   - type: chore
     scope: deps
     section: "Dependency updates"
-    release: false
+  - type: fix
+    section: "Bug Fixes"
+  - type: docs
+    section: "Documentation"
+  - type: perf
+    section: "Performance improvements"
+  - type: revert
+    section: "Revert previous changes"
+  - type: test
+    section: "Tests"
+  - type: ci
+    section: "Build and continuous integration"
+  - type: build
+    section: "Build and continuous integration"
   - type: chore
     section: "General maintenance"
-    release: false
   - type: style
     section: "Style improvements"
-    release: false
   - type: refactor
     section: "Refactoring"
-    release: false
 # ENDCONFIG
 plugins:
   -
@@ -57,7 +58,7 @@ plugins:
       presetConfig:
         types: *types
       releaseRules:
-        *types
+        *rules
 ### TEST ###
   -
     - "@semantic-release/release-notes-generator"
