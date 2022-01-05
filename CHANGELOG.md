@@ -1,3 +1,24 @@
+### [1.1.1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.0...1.1.1) (2022-01-05)
+
+
+### Bug Fixes
+
+* separate release rules and types ([544119c](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/544119cfa9cf449e01f47b29b7966ff3d4fb9acf))
+
+
+### Tests
+
+* add test cases as per specification ([2704613](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/27046135e9f53073d27e711e34fbefd85d4d388f))
+* check for the correct location before cleaning up ([c9269e9](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c9269e91f84ac3435b8aa95776a397c142862612))
+* create testing infrastructure ([8d62a7b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/8d62a7ba6588f14055034f98bac636eba8d3ebda))
+
+
+### Build and continuous integration
+
+* fix typo in workflow name ([5555e42](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5555e42304f85636267807be6fe4aba825e38b2b))
+* rename the workflow ([f667831](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f667831dff4bf326cc50a8b30fad7df8db15f75b))
+* **renovate:** use the "core-deps" scope for dependency updates ([09e20f3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/09e20f3089b7b17901c0c8619ec3676079758b76))
+
 ## [1.1.0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.0.3...1.1.0) (2021-12-28)
 
 
