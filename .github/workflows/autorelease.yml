@@ -1,4 +1,4 @@
-name: Create a Release
+name: Teste and create a release
 on:
   push:
     branches-ignore:
