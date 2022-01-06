@@ -39,35 +39,42 @@ To use this configuration, add to your `package.json`:
 ```
 (actually, pick the latest stable version)
 
-Then, pick the one among these three alternatives that suits your project:
+Then, the recommended way to exploit this pre-configuration is through a `release.config.js` file in the project root;
+the reason is that currently the semantic release extension mechanism does not merge the configurations
+in-depth, thus, adding further plugins results in the configuration being ignored.
 
-### Alternative 1: `.releaserc.yml`
+A minimal `release.config.js` for creating releases on GitHub, for instance, looks like:
 
-```yaml
-extends:
-  - semantic-release-preconfigured-conventional-commits
+```js
+var config = require('semantic-release-preconfigured-conventional-commits');
+config.plugins.push(
+    "@semantic-release/github",
+    "@semantic-release/git",
+)
+module.exports = config
+
 ```
 
-### Alternative 2: `.releaserc.json`
+It can be easily enriched to account for more elaborate workflows, as, for instance:
 
-```json
-{
-    "extends": [
-        "semantic-release-preconfigured-conventional-commits"
-    ]
-}
-```
-
-### Alternative 3: `package.json`
-
-```json
-{
-    "release": {
-        "extends": [
-            "semantic-release-preconfigured-conventional-commits"
-        ]
-    }
-}
+```js
+var publishCmd = `
+IMAGE_NAME="danysk/docker-manjaro-texlive-ruby"
+docker build -t "$IMAGE_NAME:\${nextRelease.version}"
+docker push --all-tags "$IMAGE_NAME"
+`
+var config = require('semantic-release-preconfigured-conventional-commits');
+config.plugins.push(
+    [
+        "@semantic-release/exec",
+        {
+            "publishCmd": publishCmd,
+        }
+    ],
+    "@semantic-release/github",
+    "@semantic-release/git",
+)
+module.exports = config
 ```
 
 ## Proposing changes
