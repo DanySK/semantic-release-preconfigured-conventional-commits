@@ -1,3 +1,10 @@
+### [1.1.2](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.1...1.1.2) (2022-01-06)
+
+
+### Documentation
+
+* recommend using a release.config.js file ([65f7845](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/65f78452e08fc2a840ebcefc118762b822328b1f))
+
 ### [1.1.1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.0...1.1.1) (2022-01-05)
 
 
