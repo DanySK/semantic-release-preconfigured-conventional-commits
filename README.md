@@ -39,6 +39,12 @@ To use this configuration, add to your `package.json`:
 ```
 (actually, pick the latest stable version)
 
+The configuration sets up and pre-applies `semantic-release/commit-analyzer`,
+`semantic-release/release-notes-generator`,
+and `semantic-release/changelog`.
+
+These are usually always present, but rarely enough.
+
 Then, the recommended way to exploit this pre-configuration is through a `release.config.js` file in the project root;
 the reason is that currently the semantic release extension mechanism does not merge the configurations
 in-depth, thus, adding further plugins results in the configuration being ignored.
