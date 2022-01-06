@@ -1,3 +1,10 @@
+### [1.1.3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.2...1.1.3) (2022-01-06)
+
+
+### Documentation
+
+* explain the pre-applied plugins ([46f4756](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/46f4756a15476a456d49ac7300f61f75e532a7f7))
+
 ### [1.1.2](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.1...1.1.2) (2022-01-06)
 
 
