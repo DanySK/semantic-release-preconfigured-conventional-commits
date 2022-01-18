@@ -1,3 +1,15 @@
+### [1.1.4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.3...1.1.4) (2022-01-18)
+
+
+### Bug Fixes
+
+* **core-deps:** update dependency @semantic-release/npm to v9 ([0cdd231](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0cdd2313027c3c3cc93dd40fbc07942a379dab32))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v19 ([b628006](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b628006015c2ea299f61c95c8bfec25c7dcb88e9))
+
 ### [1.1.3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.2...1.1.3) (2022-01-06)
 
 
