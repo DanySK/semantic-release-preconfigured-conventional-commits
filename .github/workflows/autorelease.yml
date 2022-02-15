@@ -60,7 +60,7 @@ jobs:
       - name: Install
         run: npm install
       - name: Prepare the configuration
-        uses: mikefarah/yq@v4.19.1
+        uses: mikefarah/yq@v4.20.1
         with:
           cmd: >-
             sed -n '/### CUT ###*/q;p' .releaserc.yml | yq -o j -e eval > .releaserc.json.pre
