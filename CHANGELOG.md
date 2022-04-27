@@ -1,3 +1,29 @@
+### [1.1.6](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.5...1.1.6) (2022-04-27)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3 ([b59b149](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b59b149f3758db1baac065c104bcd43d3e1e019c))
+* **deps:** update actions/checkout action to v3.0.1 ([7ea4a59](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/7ea4a598d17ae49c4f09cdbb43cd0b4c207f0b85))
+* **deps:** update actions/checkout action to v3.0.2 ([5de3198](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5de3198cea1aca21e66c5bd12df71f50ccf18fc7))
+* **deps:** update actions/setup-node action to v3 ([164c9fa](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/164c9fa899e79261098c31ee0998c3475476a510))
+* **deps:** update actions/setup-node action to v3.1.0 ([aed72a4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/aed72a4f42b51d5578aca5294265e78d56bd750d))
+* **deps:** update actions/setup-node action to v3.1.1 ([94534ed](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/94534ed01328968c0eb14a285a81b4e6324b9e98))
+* **deps:** update mikefarah/yq action to v4.20.1 ([ecf1a64](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ecf1a641f681fe15b4cc508a3eaa7f5056fb52fb))
+* **deps:** update mikefarah/yq action to v4.20.2 ([245ef99](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/245ef99b4640a949df50cd170eb8f0d7cb4f98f3))
+* **deps:** update mikefarah/yq action to v4.21.1 ([c0eacfc](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c0eacfcf807a5bd0927ea45de2aefc20f4522c39))
+* **deps:** update mikefarah/yq action to v4.22.1 ([5b1f5b0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5b1f5b0068aa76f59ccfba402486acc4a0cae2ad))
+* **deps:** update mikefarah/yq action to v4.23.1 ([8ebc34d](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/8ebc34da4ef97edc991d26009265fbf6d499ba3a))
+* **deps:** update mikefarah/yq action to v4.24.2 ([445c1bc](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/445c1bccec3e3fe5dba7b2794e37babcdd424c7a))
+* **deps:** update mikefarah/yq action to v4.24.4 ([0851a68](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0851a6810c615e0131a89e25357e235304c87afe))
+* **deps:** update mikefarah/yq action to v4.24.5 ([b4a64c4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b4a64c4c5e87d827aa2636690dafcbeb0cdf1380))
+* **deps:** update tj-actions/branch-names action to v5.2 ([155752e](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/155752e0c2f11be38f3fef19dfc78359b066e45d))
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 16.15 ([edcb782](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/edcb78260f5c0348249790ac1924966525ecc7f2))
+
 ### [1.1.5](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.4...1.1.5) (2022-02-08)
 
 
