@@ -44,6 +44,6 @@
     "semantic-release": "19.0.2"
   },
   "engines": {
-    "node": "16.14"
+    "node": "16.15"
   }
 }
