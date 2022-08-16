@@ -1,3 +1,19 @@
+## [1.1.10](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.9...1.1.10) (2022-08-16)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v3.4.0 ([e2c24aa](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/e2c24aa5dfbac1ff3b555fcbba00b195bde58a3d))
+* **deps:** update actions/setup-node action to v3.4.1 ([6d0dda6](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6d0dda6741df1736fd0a30a85f04719a30bea01f))
+* **deps:** update mikefarah/yq action to v4.26.1 ([b203865](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b203865f977cd5522f78010edcf564e9ebc0c45a))
+* **deps:** update mikefarah/yq action to v4.27.1 ([1d432b4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/1d432b4f4736520bb0a66b428305cbefb27d7a8a))
+* **deps:** update mikefarah/yq action to v4.27.2 ([b08aba1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b08aba1cea0e172dc197ec60f3cdfe41adcc4cc0))
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 16.17 ([7f82bc5](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/7f82bc56b5b7b20fb9c82a45c208067b63d7fb94))
+
 ## [1.1.9](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.8...1.1.9) (2022-07-07)
 
 
