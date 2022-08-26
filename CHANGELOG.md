@@ -1,3 +1,16 @@
+## [1.1.11](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.10...1.1.11) (2022-08-26)
+
+
+### Build and continuous integration
+
+* **deps:** update tj-actions/branch-names action to v5.5 ([ec79450](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ec794506557fdeb3d46a93ef8a2ac8679e3cfd48))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v19.0.4 ([38def4f](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/38def4fbc650affdaa527f7912c6eb950253a3e7))
+* **core-deps:** update dependency semantic-release to v19.0.5 ([c7a95a6](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c7a95a64c96fd9f95cb63b7bb0d318ad43894d7e))
+
 ## [1.1.10](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.9...1.1.10) (2022-08-16)
 
 
