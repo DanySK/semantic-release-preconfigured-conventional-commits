@@ -1,3 +1,22 @@
+## [1.1.12](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.11...1.1.12) (2022-10-12)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.1.0 ([303e4c3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/303e4c3ec6d0256fd169996ca79e359245dbee27))
+* **deps:** update actions/setup-node action to v3.5.0 ([13fb15c](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/13fb15ca0a3e0b0fabec73d4b1d4b31955db43f2))
+* **deps:** update mikefarah/yq action to v4.27.3 ([92a4988](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/92a4988011670966492c51477a11491e04878274))
+* **deps:** update mikefarah/yq action to v4.27.4 ([e46a7fb](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/e46a7fbe3b74e3d9f42d0f14d3f09878287fad02))
+* **deps:** update mikefarah/yq action to v4.27.5 ([0ac510a](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0ac510a93c5ed494509dd342fab6c2e6cc8faf1f))
+* **deps:** update mikefarah/yq action to v4.28.1 ([b7261ac](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/b7261acc9cec461b687a64071f6b11da76a3789f))
+* **deps:** update tj-actions/branch-names action to v5.6 ([94a88e0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/94a88e04fa7bc9afe5b0f87e3beb870da19fd272))
+* **deps:** update tj-actions/branch-names action to v6 ([691e84c](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/691e84c1cd6f4849bc1483a5a8a27d9489e4da70))
+
+
+### Documentation
+
+* **readme:** add npm package link ([650185d](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/650185d8b8014d51783a68168d33cf7fda35aee3))
+
 ## [1.1.11](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.10...1.1.11) (2022-08-26)
 
 
