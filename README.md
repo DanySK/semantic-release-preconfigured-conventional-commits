@@ -1,5 +1,7 @@
 # Pre-configured shareable Semantic Release configuration for conventional commits
 
+[![npm version](https://badge.fury.io/js/semantic-release-preconfigured-conventional-commits.svg)](https://badge.fury.io/js/semantic-release-preconfigured-conventional-commits)
+
 This is a ready-to-use, pre-defined configuration for [semantic-release](https://www.npmjs.com/package/semantic-release),
 meant to support the use of [conventional commits](https://www.conventionalcommits.org/) along with [Whitesource Renovate](https://github.com/renovatebot/renovate).
 
