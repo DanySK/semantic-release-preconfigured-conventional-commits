@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.12...1.1.13) (2022-10-15)
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 16.18 ([f347e0b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f347e0bce7346fd6a13b497f4e9992ca19422ea0))
+
 ## [1.1.12](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.11...1.1.12) (2022-10-12)
 
 
