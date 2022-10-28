@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.14...1.1.15) (2022-10-28)
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 18.12 ([777329f](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/777329f1b1329b2fe11458da3a3cd836693f7589))
+
 ## [1.1.14](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.13...1.1.14) (2022-10-25)
 
 
