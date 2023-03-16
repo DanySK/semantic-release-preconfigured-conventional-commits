@@ -10,6 +10,8 @@ on:
 
 jobs:
   tests:
+    outputs:
+      node-version: ${{ steps.node-version.outputs.node-version }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -57,7 +59,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: 16
+          node-version: ${{ needs.tests.outputs.node-version }}
           cache: 'npm'
           registry-url: https://registry.npmjs.org/
       - name: Install
