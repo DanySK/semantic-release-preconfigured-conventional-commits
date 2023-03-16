@@ -1,3 +1,31 @@
+## [1.1.17](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.16...1.1.17) (2023-03-16)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v20 ([796c9b0](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/796c9b089d76509896424fc97effc10faf6cca03))
+* **core-deps:** update dependency semantic-release to v20.0.1 ([0c83e86](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0c83e8630845aa4b05dc3383a91378830df5ac86))
+* **core-deps:** update dependency semantic-release to v20.0.2 ([1852853](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/18528531a3e8c374077c35321aaf7f470075758b))
+* **core-deps:** update dependency semantic-release to v20.0.3 ([f919dc8](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f919dc83683b34521226311c2c3f036d05f181ae))
+* **core-deps:** update dependency semantic-release to v20.0.4 ([98e18a3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/98e18a3f2f94e9ce1dfdb3bd7ef9cb2ad7267b59))
+* **core-deps:** update dependency semantic-release to v20.1.0 ([56e3ea6](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/56e3ea653706d1713a297fa0b227fed4e5a4b903))
+* **core-deps:** update dependency semantic-release to v20.1.1 ([cc5f565](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/cc5f565294c395f4b14f5b3b5e1649dfa70a60d9))
+* **core-deps:** update node.js to 18.14 ([7b506a9](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/7b506a9c85fd37465d1d1034ef54a0b4be31889b))
+* **core-deps:** update node.js to 18.15 ([f9c4fd3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f9c4fd3607824b8ac599c52a533ad53619910779))
+* **core-deps:** update semantic-release monorepo ([43eaa97](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/43eaa97f731ebf04557fac6f107ef34e199763ae))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.4.0 ([bce82d1](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/bce82d1baf030fa6d64413cfc0fe8dddcf72b9ed))
+* **deps:** update mikefarah/yq action to v4.30.7 ([3f61808](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/3f618085d37185b5558ee4a90c1e6df0b540e2ab))
+* **deps:** update mikefarah/yq action to v4.30.8 ([ddea466](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ddea4661c4888bb2d679a472da374aab3a8cd96a))
+* **deps:** update mikefarah/yq action to v4.31.1 ([efa5fbe](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/efa5fbed21df8dc0cbdede49c6f8b0663658af26))
+* **deps:** update mikefarah/yq action to v4.31.2 ([7e986df](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/7e986dfd663b393f72a176c26ba5413773c1a6f4))
+* install node from the version in package.json ([95c5bdd](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/95c5bdd04d8c1b53069de2e7a630f51f1cf83117))
+* **mergify:** disable auto-rebasing due to Mergifyio/mergify[#5074](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/issues/5074) ([3959854](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/39598542f61fe198f9bfd69798c3ee218d92cafa))
+* release with the same version of npm used for testing ([591a20e](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/591a20e058d4a4ab1c49681b79150afff0b482e3))
+
 ## [1.1.16](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.15...1.1.16) (2023-01-09)
 
 
