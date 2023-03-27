@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.21...1.1.22) (2023-03-27)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v21 ([f3a9217](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f3a92179f698d14a38175b6cc82c904f6a6aac9e))
+
 ## [1.1.21](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.20...1.1.21) (2023-03-26)
 
 
