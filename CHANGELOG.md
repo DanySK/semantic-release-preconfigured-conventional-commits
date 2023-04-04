@@ -1,3 +1,16 @@
+## [1.1.23](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.22...1.1.23) (2023-04-04)
+
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.33.2 ([97c1bb8](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/97c1bb8b144c210a5542bccca513e7d2d28c9d44))
+* **deps:** update tj-actions/branch-names action to v6.5 ([bcb2305](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/bcb230569ae606f6ef0d57ebd9ac4d614785d735))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v21.0.1 ([df68c01](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/df68c01dd2ff35b45f9556c20bebfa47c8e1928e))
+
 ## [1.1.22](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.21...1.1.22) (2023-03-27)
 
 
