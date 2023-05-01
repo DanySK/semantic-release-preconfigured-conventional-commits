@@ -1,3 +1,16 @@
+## [1.1.26](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.25...1.1.26) (2023-05-01)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.2 ([6a9236b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6a9236b1af32f77a31251b445586fe927d5494b7))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/release-notes-generator to v11 ([fd71e15](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/fd71e156cbba212746cdb1a54fc272f6ec17ba0c))
+* **core-deps:** update dependency semantic-release to v21.0.2 ([0d2de43](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/0d2de43fbc1e9fb2992af2fdca54f3a56c1f02d9))
+
 ## [1.1.25](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.24...1.1.25) (2023-04-13)
 
 
