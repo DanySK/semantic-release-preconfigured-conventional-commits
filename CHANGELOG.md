@@ -1,3 +1,15 @@
+## [1.1.27](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.26...1.1.27) (2023-05-30)
+
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.34.1 ([76eb935](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/76eb9359e34104e5d05cf33b019fc64ac4558d5f))
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/github to v8.0.8 ([fb1c384](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/fb1c384d46a65ff5274491ed474b795dd93445bf))
+
 ## [1.1.26](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.25...1.1.26) (2023-05-01)
 
 
