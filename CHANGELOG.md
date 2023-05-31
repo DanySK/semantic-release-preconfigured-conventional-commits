@@ -1,3 +1,10 @@
+## [1.1.29](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.28...1.1.29) (2023-05-31)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/github to v8.1.0 ([5ab6800](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5ab6800b50f8f3d081967b74587e1e42f72cda69))
+
 ## [1.1.28](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.27...1.1.28) (2023-05-31)
 
 
