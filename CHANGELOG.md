@@ -1,3 +1,10 @@
+## [1.1.34](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.33...1.1.34) (2023-06-10)
+
+
+### Dependency updates
+
+* **core-deps:** update semantic-release monorepo ([a7a711e](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/a7a711e42ce26fa038b392b16b0ca94f11622715))
+
 ## [1.1.33](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.32...1.1.33) (2023-06-09)
 
 
