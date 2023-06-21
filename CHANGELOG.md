@@ -1,3 +1,10 @@
+## [1.1.38](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.37...1.1.38) (2023-06-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency conventional-changelog-conventionalcommits to v6.1.0 ([e6aa8c3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/e6aa8c380a1c667585effeac36081606c6aef629))
+
 ## [1.1.37](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.36...1.1.37) (2023-06-13)
 
 
