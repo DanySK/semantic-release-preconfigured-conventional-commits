@@ -1,3 +1,10 @@
+## [1.1.50](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.49...1.1.50) (2023-08-30)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/commit-analyzer to v10.0.2 ([8ba03b9](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/8ba03b928b6f62a0f5f339b3790295e1c8ee588b))
+
 ## [1.1.49](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.48...1.1.49) (2023-08-30)
 
 
