@@ -1,3 +1,15 @@
+## [1.1.54](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.53...1.1.54) (2023-09-11)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency conventional-changelog-conventionalcommits to v7.0.2 ([54758ac](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/54758ac15a51c9be0344f1c0dd4152fe945a88bd))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([c118957](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c1189570dcc0741256ca7aec4774bf005b20129d))
+
 ## [1.1.53](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.52...1.1.53) (2023-08-31)
 
 
