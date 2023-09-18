@@ -1,3 +1,11 @@
+## [1.1.57](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.56...1.1.57) (2023-09-18)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/npm to v11 ([9d4ea66](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/9d4ea6648813ac9cc7c61ba0bb4797ae0e668ad2))
+* **core-deps:** update node.js to 18.18 ([dc5df8e](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/dc5df8e85626e4186dd560a09864892348f179fd))
+
 ## [1.1.56](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.55...1.1.56) (2023-09-17)
 
 
