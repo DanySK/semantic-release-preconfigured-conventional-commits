@@ -44,6 +44,6 @@
     "semantic-release": "21.1.1"
   },
   "engines": {
-    "node": "18.17"
+    "node": "18.18"
   }
 }
