@@ -1,3 +1,10 @@
+## [1.1.70](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.69...1.1.70) (2023-10-24)
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 20.9 ([ee31114](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ee311144044c90344eae8fcefb7ce20d6ced714b))
+
 ## [1.1.69](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.68...1.1.69) (2023-10-24)
 
 
