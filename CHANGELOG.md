@@ -1,3 +1,17 @@
+## [1.1.69](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.68...1.1.69) (2023-10-24)
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to v20 ([d3ff34b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/d3ff34b4bbb841d8a64b03b284c041b0dbb2e4fe))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([f7bdd7f](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f7bdd7f6f7fdad870c555bcc3cd7263fba405ef0))
+* **deps:** update actions/setup-node action to v3.8.2 ([3d53068](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/3d53068c03d9ce9e9c68822531411ca784a8bb0b))
+* **deps:** update actions/setup-node action to v4 ([bc934e5](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/bc934e53ae4cb6ffa6af2e622e978e2fed6ad2ea))
+
 ## [1.1.68](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.67...1.1.68) (2023-10-01)
 
 
