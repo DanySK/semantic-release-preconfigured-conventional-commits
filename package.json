@@ -44,6 +44,6 @@
     "semantic-release": "22.0.5"
   },
   "engines": {
-    "node": "20.8"
+    "node": "20.9"
   }
 }
