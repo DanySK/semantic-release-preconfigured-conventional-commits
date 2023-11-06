@@ -41,7 +41,7 @@
     "semantic-release": ">=18.0.0"
   },
   "devDependencies": {
-    "semantic-release": "22.0.6"
+    "semantic-release": "22.0.7"
   },
   "engines": {
     "node": "20.9"
