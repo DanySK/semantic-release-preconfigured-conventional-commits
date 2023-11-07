@@ -1,3 +1,10 @@
+## [1.1.74](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.73...1.1.74) (2023-11-07)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/release-notes-generator to v12.0.1 ([c86c1e8](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c86c1e89974a3f5c7eca65734c7981560e948a0a))
+
 ## [1.1.73](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.72...1.1.73) (2023-11-06)
 
 
