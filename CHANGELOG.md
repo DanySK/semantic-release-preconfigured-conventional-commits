@@ -1,3 +1,15 @@
+## [1.1.78](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.77...1.1.78) (2023-11-23)
+
+
+### Dependency updates
+
+* **core-deps:** update node.js to 20.10 ([70bd991](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/70bd991f6fb0630b7c3f630c825688a47b22f145))
+
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.40.3 ([22d608a](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/22d608a596b30f1fce058d68e323ee7db107d538))
+
 ## [1.1.77](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.76...1.1.77) (2023-11-20)
 
 
