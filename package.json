@@ -29,7 +29,7 @@
   "homepage": "https://github.com/DanySK/semantic-release-preconfigured-conventional-commits",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.0",
-    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/commit-analyzer": "^12.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/release-notes-generator": "^12.0.0",
     "@semantic-release/exec": "^6.0.3",
