@@ -11,7 +11,7 @@ on:
 jobs:
   tests:
     outputs:
-      node-version: ${{ steps.node-version.outputs.node-version }}
+      node-version: ${{ steps.node-version.outputs.version }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
