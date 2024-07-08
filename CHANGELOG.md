@@ -1,3 +1,9 @@
+## [1.1.89](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.88...1.1.89) (2024-07-08)
+
+### Bug Fixes
+
+* update `package-lock.json` ([5cd44ce](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/5cd44cea77fd51b5c02257c853682d36bdb04639))
+
 ## [1.1.88](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.87...1.1.88) (2024-07-08)
 
 ### Bug Fixes
