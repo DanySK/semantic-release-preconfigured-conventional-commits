@@ -1,3 +1,9 @@
+## [1.1.88](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.87...1.1.88) (2024-07-08)
+
+### Bug Fixes
+
+* force a specific version as peerDependencies ([de3e0bd](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/de3e0bdac458885ad745bd09724226da28239039))
+
 ## [1.1.87](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.86...1.1.87) (2024-07-04)
 
 ### Dependency updates
