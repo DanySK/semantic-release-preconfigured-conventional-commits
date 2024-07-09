@@ -1,3 +1,13 @@
+## [1.1.90](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.89...1.1.90) (2024-07-09)
+
+### Bug Fixes
+
+* pinpoint all dependency versions ([a32ce38](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/a32ce3843e79c2da88ff544682b2a941005137b0))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.3 ([016a4d2](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/016a4d2ee15e3dc5477acfb8225fe16f2bea00ef))
+
 ## [1.1.89](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.88...1.1.89) (2024-07-08)
 
 ### Bug Fixes
