@@ -1,3 +1,9 @@
+## [1.1.93](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.92...1.1.93) (2024-07-27)
+
+### Dependency updates
+
+* **core-deps:** update node.js to 20.16 ([6331d3a](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6331d3a967f481cb08226736ec7bc3f4449f5851))
+
 ## [1.1.92](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.91...1.1.92) (2024-07-22)
 
 ### Dependency updates
