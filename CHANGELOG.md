@@ -1,3 +1,13 @@
+## [1.1.96](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.95...1.1.96) (2024-08-12)
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/github to v10.1.4 ([4ec5b7b](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/4ec5b7b030e165506722e3dfcd92abf17c9af76e))
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.44.3 ([2176ada](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/2176adafc5d47dfb3373e8744decf8ebc92edd9f))
+
 ## [1.1.95](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.94...1.1.95) (2024-07-29)
 
 ### Dependency updates
