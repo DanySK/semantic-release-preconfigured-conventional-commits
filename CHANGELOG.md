@@ -1,3 +1,9 @@
+## [1.1.102](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.101...1.1.102) (2024-09-05)
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/github to v10.3.0 ([c4e9d01](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c4e9d01d1984dba86d2154bbfce54d443dcd3165))
+
 ## [1.1.101](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.100...1.1.101) (2024-08-24)
 
 ### Dependency updates
