@@ -1,3 +1,9 @@
+## [1.1.114](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.113...1.1.114) (2024-11-01)
+
+### Dependency updates
+
+* **core-deps:** update node.js to v22 ([ed45ebb](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ed45ebb15f0c5d93ee76bd14031c30bd5252e481))
+
 ## [1.1.113](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.112...1.1.113) (2024-10-28)
 
 ### Dependency updates
