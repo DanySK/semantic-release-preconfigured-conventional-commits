@@ -1,3 +1,14 @@
+## [1.1.126](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.125...1.1.126) (2025-04-25)
+
+### Dependency updates
+
+* **core-deps:** update node.js to 22.15 ([6e6867d](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6e6867dc587c1b4b08e7e9cde8c689fd786e67c9))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.3.0 ([c6427a7](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/c6427a727a3164d505d96d9d05fe7f106e929035))
+* **deps:** update actions/setup-node action to v4.4.0 ([f3ee141](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f3ee1418e6772f0b403158b79b8854ea174adfc5))
+
 ## [1.1.125](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.124...1.1.125) (2025-02-18)
 
 ### Dependency updates
