@@ -1,3 +1,9 @@
+## [1.1.127](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.126...1.1.127) (2025-04-28)
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/github to v11.0.2 ([00d8c6a](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/00d8c6ad3d2ed05e71a3c2a927c2c87f5b1d405e))
+
 ## [1.1.126](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.125...1.1.126) (2025-04-25)
 
 ### Dependency updates
