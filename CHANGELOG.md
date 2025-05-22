@@ -1,3 +1,9 @@
+## [1.1.130](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.129...1.1.130) (2025-05-22)
+
+### Dependency updates
+
+* **core-deps:** update dependency conventional-changelog-conventionalcommits to v9 ([76da9ab](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/76da9ab6d9ddd4454d92e13a0f22a6080aa01f2a))
+
 ## [1.1.129](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.128...1.1.129) (2025-05-19)
 
 ### Dependency updates
