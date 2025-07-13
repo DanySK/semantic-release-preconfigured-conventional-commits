@@ -1,3 +1,13 @@
+## [1.1.137](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.136...1.1.137) (2025-07-13)
+
+### Dependency updates
+
+* **core-deps:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([11bce35](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/11bce352479b68961574ed8b9c1781712dfb1098))
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.46.1 ([6cb63ec](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6cb63ec0302260f69f8ff4c91b62971166ce3645))
+
 ## [1.1.136](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.135...1.1.136) (2025-07-02)
 
 ### Dependency updates
