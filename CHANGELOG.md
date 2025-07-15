@@ -1,3 +1,9 @@
+## [1.1.138](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.137...1.1.138) (2025-07-15)
+
+### Dependency updates
+
+* **core-deps:** update dependency semantic-release to v24.2.7 ([64bd7b3](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/64bd7b360327ecb22d8cf9ac6937f8a448831fbb))
+
 ## [1.1.137](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.136...1.1.137) (2025-07-13)
 
 ### Dependency updates
