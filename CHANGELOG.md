@@ -1,3 +1,13 @@
+## [1.1.139](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.138...1.1.139) (2025-08-03)
+
+### Dependency updates
+
+* **core-deps:** update node.js to 22.18 ([d0d4e33](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/d0d4e335b23d9d08a66c9e643312fe2f7567b0a2))
+
+### Build and continuous integration
+
+* **deps:** update mikefarah/yq action to v4.47.1 ([ef030cf](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/ef030cf3b4752a2f9519e47004a19be31c4c84ea))
+
 ## [1.1.138](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.137...1.1.138) (2025-07-15)
 
 ### Dependency updates
