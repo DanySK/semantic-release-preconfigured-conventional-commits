@@ -1,3 +1,14 @@
+## [1.1.148](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.147...1.1.148) (2025-10-16)
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/npm to v13 ([6858d53](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/6858d53ff0f53e08f0982b4450d595ab45a2e7d9))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6 ([fa91d02](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/fa91d0203d239fa88b0da54e8dcce16f20536a2a))
+* **deps:** update mikefarah/yq action to v4.48.1 ([83374b4](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/83374b423d65ddc5e4e019b618f2f6ef77311d87))
+
 ## [1.1.147](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.146...1.1.147) (2025-09-27)
 
 ### Dependency updates
