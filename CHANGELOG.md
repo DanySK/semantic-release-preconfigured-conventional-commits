@@ -1,3 +1,9 @@
+## [1.1.150](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.149...1.1.150) (2025-10-22)
+
+### Dependency updates
+
+* **core-deps:** update dependency @semantic-release/npm to v13.1.1 ([f2b5d05](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/commit/f2b5d05d6a0b43700fd7fc758f91023c4f857cf4))
+
 ## [1.1.149](https://github.com/DanySK/semantic-release-preconfigured-conventional-commits/compare/1.1.148...1.1.149) (2025-10-18)
 
 ### Dependency updates
