@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
       - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v6.5
@@ -55,7 +55,7 @@ jobs:
       - tests
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5.0.1
       - name: Setup Node
         uses: actions/setup-node@v6.0.0
         with:
