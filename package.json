@@ -38,10 +38,10 @@
     "@semantic-release/npm": "13.1.5"
   },
   "peerDependencies": {
-    "semantic-release": "25.0.8"
+    "semantic-release": "25.0.9"
   },
   "devDependencies": {
-    "semantic-release": "25.0.8"
+    "semantic-release": "25.0.9"
   },
   "engines": {
     "node": "24.19"
