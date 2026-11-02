@@ -6,8 +6,17 @@
   "packageRules": [
     {
       "description": "Updates to the dependencies should trigger a new patch release",
-      "matchPaths": ["package.json"],
+      "matchPaths": [
+        "package.json"
+      ],
       "semanticCommitScope": "core-deps"
+    },
+    {
+      "description": "conventional-changelog-conventionalcommits 10+ requires conventional-changelog-writer 9, but @semantic-release/release-notes-generator 14 ships writer 8. Lift once release-notes-generator 15 is stable.",
+      "matchPackageNames": [
+        "conventional-changelog-conventionalcommits"
+      ],
+      "allowedVersions": "<10"
     }
   ]
 }
